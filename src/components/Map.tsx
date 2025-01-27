@@ -10,7 +10,7 @@ const Map = () => {
     if (!mapContainer.current) return;
 
     // Initialize map
-    mapboxgl.accessToken = 'YOUR_MAPBOX_TOKEN'; // Replace with your Mapbox token
+    mapboxgl.accessToken = 'pk.eyJ1Ijoia3VuZGFuMTIzNCIsImEiOiJjbTZlcm9wc3AxNmFoMmlzZDdpbDVlajllIn0.VVa3FhFkF3wv6vEmPWiCtQ'; // Replace with your Mapbox token
     
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
