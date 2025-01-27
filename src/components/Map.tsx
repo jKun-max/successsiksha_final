@@ -15,7 +15,7 @@ const Map = () => {
     map.current = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/streets-v12',
-      center: [87.8614793, 23.2324214], // Bardhaman coordinates
+      center: [87.8666896, 23.2365426], // Bardhaman coordinates
       zoom: 12
     });
 
